@@ -1,0 +1,176 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #EDEDE9;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-color: #D5BDAF;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+}
+
+header .nav {
+    background-color: #2B1B15;
+}
+
+footer {
+    background-color: #D5BDAF;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+}
+
+footer .nav {
+    background-color: #2B1B15;
+    color: white;
+}
+
+header .nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+header .nav-link:hover {
+    color: #D5BDAF;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+.about-section {
+    background-image: url('../images/banner2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.about-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.about-text {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.about-text h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+}
+
+.about-text a {
+    margin-top: 20px;
+}
+
+.about-us {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 20px;
+    background-color: #2B1B15;
+    border-radius: 50px;
+}
+
+.btn-login {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #2B1B15;
+    border-radius: 50px;
+}
+
+.btn-register {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #2B1B15;
+    border-radius: 50px;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container:hover {
+    filter: brightness(50%);
+}
+
+.image-title {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 255, 255);
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgba(1, 1, 1, 1);
+    opacity: 1;
+    text-align: center;
+    padding: 5px 10px;
+    width: calc(100% - 20px); 
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    font-weight: bolder;
+}
+
+.carousel-caption p {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+    font-weight: bolder;
+}
+
+.custom-img {
+    object-fit: cover;
+    height: 100%; 
+    width: 100%;
+}
